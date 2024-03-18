@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "yekan";
+    src: url("../fonts/yekan.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "yekan-bold";
+    src: url("../fonts/yekan-bold.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "lalezar";
+    src: url("../fonts/Lalezar-Regular.ttf") format("TrueType");
+}
+@font-face {
+    font-family: "vazir-matn";
+    src: url("../fonts/Vazirmatn-Medium.ttf") format("TrueType");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background-color: #101014;
+    font-family: "vazir-matn";
+}
+/* .container {
+
+} */
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.right {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* .head__icon {
+
+}
+.navbar {
+
+} */
+.navbar ul{
+    display: flex;
+    /* border: 1px solid #fff; */
+    gap: 24px;
+}
+.navbar__li {
+    list-style: none;
+}
+.navbar__item {
+    color: rgba(214, 214, 214, 0.869);
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: #fff;
+    }
+}
+.search-box {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+.search-box__input {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: "yekan";
+    border-radius: 5px;
+    width: 100%;
+}
+.search-box__icon {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/*------------------------------row started--------------------------*/
+
+
+.row {
+    margin-top: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cover {
+    width: 313px;
+    height: 180px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.cover:hover .cover__intro {
+    opacity: 1;
+    transform: scale(1);
+}
+.cover__intro {
+    color: #ffffffaf;
+    background-color: rgba(0, 0, 0,0.7);
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 80%;
+    opacity: 0;
+    transition: all 0.35s ease;
+    transform: scale(0.95);
+}
+.cover__intro-voit {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+.cover__intro-voit-1 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.cover__intro-voit-1-icon {
+    width: 18px;
+    height: 18px;
+}
+/* .cover__intro-voit-1-number {
+    
+} */
+.cover__intro-voit-2 {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.cover__intro-voit-2-icon {
+    width: 18px;
+    height: 18px;
+    color: #fff;
+}
+/* .cover__intro-voit-2-number {
+
+} */
+.cover__intro-name {
+    margin-bottom: 12px;
+}
+.cover__intro-name-fa {
+    font-size: 1rem;
+    color: #fff;
+}
+/* .cover__intro-name-en {
+
+} */
+.cover__intro-btn {
+    border: 1px solid #FDD835;
+    background: transparent;
+    border-radius: 3px;
+    color: #FDD835;
+    padding: 4px 0 6px 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* font-weight: bold; */
+    transition: all 0.3s ease;
+    font-family: "lalezar";
+
+    &:hover {
+        background: #FDD835;
+        color: #101014;
+    }
+}
+
+.img-1 {
+    background-image: url("../images/Madame-Web-2024-Header-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-2 {
+    background-image: url("../images/PesarDolphini-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-3 {
+    background-image: url("../images/GonahFereshteh-13-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-4 {
+    background-image: url("../images/Afee-Tehran-header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-5 {
+    background-image: url("../images/Damsel-2024-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-6 {
+    background-image: url("../images/Dune-2-2024-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-7 {
+    background-image: url("../images/Megamind-vs-the-Doom-Syndicate-2024-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-8 {
+    background-image: url("../images/Argylle-2024-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-9 {
+    background-image: url("../images/Alienoid-2-The-Return-to-the-Future-2024-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-10 {
+    background-image: url("../images/Desperado-2024-Header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-11 {
+    background-image: url("../images/Shogun-s1-header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-12 {
+    background-image: url("../images/Avatar-Header1.jpg");
+    background-size: cover;
+    background-position: center;
+}

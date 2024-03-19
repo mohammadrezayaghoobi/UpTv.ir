@@ -94,34 +94,51 @@
   background-size: cover;
 }
 
-
 .poster__img7 {
-    background-image: url("../images/Section_2/Aftermath-2024-207x290.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/Section_2/Aftermath-2024-207x290.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .poster__img8 {
-    background-image: url("../images/Section_2/Craving-2023-207x290.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/Section_2/Craving-2023-207x290.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .poster__img9 {
-    background-image: url("../images/Section_2/Madame-Web-2024-1-207x290.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/Section_2/Madame-Web-2024-1-207x290.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .poster__img10 {
-    background-image: url("../images/Section_2/Bad-Blood-2023-207x290.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/Section_2/Bad-Blood-2023-207x290.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .poster__img11 {
-    background-image: url("../images/Section_2/Stopmotion-2023-207x290.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/Section_2/Stopmotion-2023-207x290.jpg");
+  background-position: center;
+  background-size: cover;
 }
 .poster__img12 {
-    background-image: url("../images/Section_2/Siccin-7-2023-207x290.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../images/Section_2/Siccin-7-2023-207x290.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*----------------------Section-3-started----------------------*/
+
+.poster__img13 {
+  background-image: url("../images/Section_3/farar-zendan-200x300.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img14 {
+  background-image: url("../images/Section_3/Shogun-1-207x290.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img15 {
+  background-image: url("../images/Section_3/Avatar-The-Last-Airbender-2024-207x290.jpg");
+  background-position: center;
+  background-size: cover;
 }

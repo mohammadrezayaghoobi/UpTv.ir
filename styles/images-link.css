@@ -1,0 +1,127 @@
+/*----------images link started----------*/
+
+.img-1 {
+  background-image: url("../images/Madame-Web-2024-Header-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-2 {
+  background-image: url("../images/PesarDolphini-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-3 {
+  background-image: url("../images/GonahFereshteh-13-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-4 {
+  background-image: url("../images/Afee-Tehran-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-5 {
+  background-image: url("../images/Damsel-2024-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-6 {
+  background-image: url("../images/Dune-2-2024-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-7 {
+  background-image: url("../images/Megamind-vs-the-Doom-Syndicate-2024-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-8 {
+  background-image: url("../images/Argylle-2024-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-9 {
+  background-image: url("../images/Alienoid-2-The-Return-to-the-Future-2024-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-10 {
+  background-image: url("../images/Desperado-2024-Header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-11 {
+  background-image: url("../images/Shogun-s1-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.img-12 {
+  background-image: url("../images/Avatar-Header1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*-------------section2-started----------------*/
+
+.poster__img1 {
+  background-image: url("../images/Section_2/Shahre-Hert-Series-E1-207x290.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img2 {
+  background-image: url("../images/Section_2/Hoze-Naghashiii-1-207x290.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img3 {
+  background-image: url("../images/Section_2/mard-1000-chehre-min-214x300.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img4 {
+  background-image: url("../images/Section_2/texas-min-214x300.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img5 {
+  background-image: url("../images/Section_2/Metri6.5-207x290.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.poster__img6 {
+  background-image: url("../images/Section_2/salh-ha-s1-e15-final-min-214x300.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+.poster__img7 {
+    background-image: url("../images/Section_2/Aftermath-2024-207x290.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.poster__img8 {
+    background-image: url("../images/Section_2/Craving-2023-207x290.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.poster__img9 {
+    background-image: url("../images/Section_2/Madame-Web-2024-1-207x290.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.poster__img10 {
+    background-image: url("../images/Section_2/Bad-Blood-2023-207x290.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.poster__img11 {
+    background-image: url("../images/Section_2/Stopmotion-2023-207x290.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.poster__img12 {
+    background-image: url("../images/Section_2/Siccin-7-2023-207x290.jpg");
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "yekan";
+  src: url("../fonts/yekan.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "yekan-bold";
+  src: url("../fonts/yekan-bold.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "lalezar";
+  src: url("../fonts/Lalezar-Regular.ttf") format("TrueType");
+}
+@font-face {
+  font-family: "vazir-matn";
+  src: url("../fonts/Vazirmatn-Medium.ttf") format("TrueType");
+}
